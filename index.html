@@ -1,0 +1,121 @@
+<!DOCTYPE tml>
+<html lang="es">
+    <head>
+        <title> Alexander Lopez </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <!--Fuente Lato -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+        <meta name="author" content=" ALEXANDER LOPEZ ">
+        <meta name="description" content="Desarrollador Web PROGRAMACION">
+        <meta name="keywords" content="HMTL , CSS , JS, PHP , MYSQL ">
+        <link rel="shortcut icon" href="img/Favicon.ico">
+        <script type="text/javascript" src="js/validar.js"></script>
+        <!-- LIBRERIA SWEET -->
+        <script src="librerias/sweetalert/package/dist/sweetalert2.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="librerias/sweetalert/package/dist/sweetalert2.min.css">
+        <!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+        <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    </head>
+    <body>
+        <header>
+            <section class="cabeza">
+                <nav>
+                    <strong><h1 class="Text-header"> ALEXANDER LOPEZ</h1></strong>
+                    <a href="index.html">INICIO | </a>
+                    <a href="#SERVICIOS">SERVICIOS  | </a>
+                    <a href="#ACERCADEMI">CONTACTO  | </a>
+                    <a href="vistas/ejemplo.html">EJEMPLO</a>
+                </nav>
+                <article class="article-medio">
+                    <section class="text-article-medio">
+                        <h4>Bienvenido</h4>
+                        <span>YO SOY ALEXANDER LÓPEZ </span>
+                        <h4> Desarrollador Web</h4>
+                    </section>
+                </article>
+            </section>
+        </header>    
+        <div class="contenedor-abajo-acerca-de-mi">
+            <section class="about-services">
+                <div class="contenedor">
+                    <h2 class="titulo"> <a name="SERVICIOS">SERVICIOS</h2>
+                    <div class="servicio-cont">
+                        <div class="servicio-ind">
+                            <img src="img/descarga.png" alt="">
+                            <h3>DESARROLLO WEB</h3>
+                            <p> FRONTEND Y BACKEND </p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/redes.jpg" alt="">
+                            <h3>REDES</h3>
+                            <p>CONFIGURACIÓN DE REDES Y SERVIDORES</p>
+                        </div>
+                        <div class="servicio-ind">
+                            <img src="img/images.jpg" alt="">
+                            <h3>MANTENIMIENTO</h3>
+                            <p>MANTENIMIENTO PREVENTIVO DE COMPUTO</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="acerca-contacto">
+            <h2 class="titulo"> <a name="ACERCADEMI">CONTACTO</h2>
+        </section>           
+        <form action="#" method="POST" onsubmit="return validar();" >   
+            <div class="contenido-form">
+                <span>Su nombre es:</span>     
+                <input type="text" size="80" id="nombre" name="nombre" placeholder="ingrese su nombre" />
+                <br><br> 
+            </div>
+            <div class="contenido-form">
+                <span>Su correo es:</span>
+                <input type="" size="80" id="correo"  name="correo" placeholder="ingrese su correo" />
+                <br><br>   
+            </div>    
+            <div class="contenido-form">
+                <span>Por favor seleccione un servicio</span> 
+                <select> 
+                    <option>REDES Y SERVIDORES</option>
+                    <option>DESARROLLO DE SOFTWARE</option>
+                    <option>MANTENIMIENTO</option>
+                </select>
+            </div>
+            <br>  
+            <div class="contenido-form">
+                <textarea type="text" id="textocomentario">Su mensaje es:</textarea>
+            </div>
+            <br> 
+            <input type="submit" class="btn-enviar" value="Enviar Peticion"  />
+            <br> 
+            <br> 
+        </form> 
+        <footer>
+            <div class="contenedor-footer">
+                <div class="content-foo">
+                    <h4>Telefono</h4>
+                    <span>3144352302</span>
+                </div>
+                <div class="content-foo">
+                    <h4>Email</h4>
+                    <span>metall23alexleal@gmail.com</span>
+                </div>
+                <div class="content-foo">
+                    <h4>Ubicación</h4>
+                    <span>Colombia </span>
+                </div>
+            </div>
+            <h2 class="titulo-final">&copy; Alexander Lopez | DESARROLLADOR JUNIOR</h2>
+        </footer>
+        <script type="text/javascript" src="js/validar.js"></script>
+        <!-- LIBRERIA SWEET -->
+        <script src="librerias/sweetalert/package/dist/sweetalert2.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="librerias/sweetalert/package/dist/sweetalert2.min.css">
+        <!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+        <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    </body>
+</html>
